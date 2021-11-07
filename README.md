@@ -5,7 +5,10 @@ Cordova plugin to guard against some of Hacking / Tampering attacks. Also provid
 Plugin includes existing code from : 
 
 https://github.com/securing/IOSSecuritySuite
+
 https://github.com/WuglyakBolgoink/cordova-plugin-iroot
+
+https://github.com/mattlewis92/cordova-plugin-is-debug
 
 Usage :
 
