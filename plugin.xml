@@ -13,5 +13,16 @@
 			</feature>
 		</config-file>
 		<source-file src="src/ios/MobileDeviceSecurity.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/EmulatorChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/FishHookChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/JailbreakChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/ReverseEngineeringToolsChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/RuntimeHookChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/IOSSecuritySuite.h" />
+		<source-file src="src/ios/IOSSecuritySuite/IntegrityChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/MSHookFunctionChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/ProxyChecker.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/IOSSecuritySuite.swift" />
+		<source-file src="src/ios/IOSSecuritySuite/DebuggerChecker.swift" />
 	</platform>
 </plugin>
