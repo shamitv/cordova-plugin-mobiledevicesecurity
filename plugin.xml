@@ -24,5 +24,7 @@
 		<source-file src="src/ios/IOSSecuritySuite/ProxyChecker.swift" />
 		<source-file src="src/ios/IOSSecuritySuite/IOSSecuritySuite.swift" />
 		<source-file src="src/ios/IOSSecuritySuite/DebuggerChecker.swift" />
+		<source-file src="src/ios/IsDebug.h" />
+		<source-file src="src/ios/IsDebug.m" />
 	</platform>
 </plugin>
