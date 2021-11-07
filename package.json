@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-mobiledevicesecurity",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Cordova plugin to guard against some of Hacking / Tampering attacks. Also provides device information like state of Jailbrake / Root.",
 
   "cordova": {
