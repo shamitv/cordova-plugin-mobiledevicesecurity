@@ -16,6 +16,9 @@ exports.IsDeviceAnEmulator = function (success, error) {
     exec(success, error, 'MobileDeviceSecurity', 'IsDeviceAnEmulator');
 };
 
+exports.IsAnyHackingToolPresent = function (success, error) {
+    exec(success, error, 'MobileDeviceSecurity', 'IsAnyHackingToolPresent');
+};
 
 
 
