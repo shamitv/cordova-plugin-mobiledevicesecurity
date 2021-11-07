@@ -22,7 +22,18 @@ class MobileDeviceSecurity : CDVPlugin{
         self.commandDelegate.send(cordovaResult, callbackId: command.callbackId)
     }
 
-    
+    @objc(IsDeviceAnEmulator:)
+    func IsDeviceAnEmulator(command : CDVInvokedUrlCommand){
+        let check = IOSSecuritySuite.amIRunInEmulator();
+        let result = check
+        let message = ""
+        var cordovaResult:CDVPluginResult
+        cordovaResult = CDVPluginResult(status: CDVCommandStatus_OK, messageAs: result)
+        self.commandDelegate.send(cordovaResult, callbackId: command.callbackId)
+    }
+
+
+
     func amIDebugged() -> Bool {
 
         var kinfo = kinfo_proc()
