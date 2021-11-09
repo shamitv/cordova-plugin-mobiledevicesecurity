@@ -2,16 +2,22 @@
   "name": "cordova-plugin-mobiledevicesecurity",
   "version": "0.0.11",
   "description": "Cordova plugin to guard against some of Hacking / Tampering attacks. Also provides device information like state of Jailbrake / Root.",
-
+  "homepage": "https://github.com/shamitv/cordova-plugin-mobiledevicesecurity"
   "cordova": {
     "id": "cordova-plugin-mobiledevicesecurity",
     "platforms": [
       "ios"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamitv/cordova-plugin-mobiledevicesecurity.git"
+  },
+  "bugs": {
+  "url": "https://github.com/shamitv/cordova-plugin-mobiledevicesecurity/issues"
+  },
   "keywords": [
   "ecosystem:cordova",
-  "cordova-android",
   "cordova-ios",
   "cordova",
   "anti-tampering",
@@ -21,6 +27,6 @@
   "scripts": {
     "test": "echo \"Test placeholder\""
   },
-  "author": "",
+  "author": "Shamit Verma",
   "license": "MIT"
 }
